@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.space1 {
+    background-color: #1F2937;
+}
+
+.space2 {
+
+}
+
+.space3 {
+    background-color: #E5E7EB;
+}
+
+.space4 {
+
+}
+
+.footer {
+    background-color: #1F2937;
+}
+
+.s1header {
+    display: flex;
+}
+
+.header-logo {
+
+}
+
+.header-links {
+
+}
