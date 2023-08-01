@@ -1,26 +1,44 @@
 body {
     display: flex;
     flex-direction: column;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    background-color: #1F2937;   
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(fonts/Roboto-Bold.ttf);
+    font-weight: bold;
 }
 
 .space1 {
-    background-color: #1F2937;
+    flex-basis: 530px;
 }
 
 .space2 {
-
+    background-color: white;
+    flex-basis: 500px;
 }
 
 .space3 {
     background-color: #E5E7EB;
+    flex-basis: 430px;
 }
 
 .space4 {
-
+    background-color: white;
+    flex-basis: 350px;
 }
 
 .footer {
-    background-color: #1F2937;
+    flex-basis: 100px;
 }
 
 .s1header {
@@ -33,4 +51,8 @@ body {
 
 .header-links {
 
+}
+
+ul {
+    list-style: none;
 }
