@@ -87,3 +87,18 @@ ul {
 .s1image {
     width: 500px;
 }
+
+.movies {
+    display: flex;
+}
+
+.movie-poster {
+    width: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 5px;
+}
+
+.movie-desc {
+    color: #6d7580;
+    font-size: 18px;
+}
