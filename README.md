@@ -1,1 +1,1 @@
-# landing-page
+Project made for The Odin Project, had an image with the layout as the reference for this and some of the fonts used and had to made a website from scratch.
