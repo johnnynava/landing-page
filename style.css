@@ -35,6 +35,11 @@ body {
 .space3 {
     background-color: #E5E7EB;
     flex-basis: 430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 300px;
 }
 
 .space4 {
@@ -119,6 +124,9 @@ ul {
 .s3quote-author {
     font-size: 24px;
     margin: 0px;
+    margin-left: auto;
+    margin-top: 10px; 
+    margin-right: 60px;   
 }
 
 .header-links {
@@ -150,4 +158,12 @@ ul {
 .s4left-desc {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.footer {
+    display: flex;
+    color: #E5E7EB;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
 }
