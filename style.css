@@ -59,6 +59,7 @@ body {
 
 .s1header {
     display: flex;
+    margin: 20px 200px;
 }
 
 .header-logo {
@@ -72,35 +73,50 @@ ul {
     list-style: none;
     margin: 0px;
     display: flex;
+    gap: 30px;
 }
 
 .s1content {
     display: flex;
+    justify-content: center;
+    margin-top: 75px;
+    align-items: center;
+    gap: 30px;
 }
 
-/* .s1leftc {
-
-} */
+.s1leftc {
+    width:500px;
+}
 
 .s1big {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 800;
+    margin: 0px;
 }
 
 .s1small {
     font-size: 18px;
-    color: #E5E7EB;
+    color: #b3b7be;
 }
 
 .s1button {
     background-color: #3882F6;
     border-radius: 5px;
     border: 0px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: #F9FAF8;
+    cursor: pointer;
+}
+
+.s1button:hover {
+    color: rgb(110, 216, 130);
 }
 
 .s1image {
-    width: 500px;
+    width: 625px;
+    height: 297.5px;
 }
 
 .s2header {
@@ -116,6 +132,10 @@ ul {
     width: 150px;
     border: 5px solid #3882F6;
     border-radius: 5px;
+}
+
+.movie-poster:hover {
+    border-color: rgb(110, 216, 130);
 }
 
 .movie-desc {
@@ -142,7 +162,7 @@ ul {
 
 .header-links {
     text-decoration: none;
-    color: #E5E7EB;
+    color: #b3b7be;
 }
 
 .s4box {
@@ -159,6 +179,7 @@ ul {
     border: 2px solid #F9FAF8;
     color: #F9FAF8;
     font-size: 18px;
+    cursor: pointer;
 }
 
 .s4left-header {
@@ -177,4 +198,8 @@ ul {
     font-size: 18px;
     justify-content: center;
     align-items: center;
+}
+
+a:hover {
+    color: #3882F6;
 }
